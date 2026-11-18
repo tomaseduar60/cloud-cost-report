@@ -1,0 +1,51 @@
+# Costos cloud {{ r.start }} → {{ r.end }}
+
+**Total: {{ r.total | money }} {{ r.currency }}**{% for p, v in r.by_provider.items() %} · {{ p }} {{ v | money }}{% endfor %}
+
+{% if r.alerts %}
+## ⚠️ Alertas de presupuesto
+
+| Equipo | Gastado | Presupuesto | Uso |
+|---|---:|---:|---:|
+{% for a in r.alerts %}
+| {{ a.team }} | {{ a.spent | money }} | {{ a.budget | money }} | {{ "%.0f" % (a.ratio * 100) }}% |
+{% endfor %}
+
+{% endif %}
+## Por equipo
+
+| Equipo | {{ r.currency }} | % |
+|---|---:|---:|
+{% for team, v in r.by_team.items() %}
+| {{ team }} | {{ v | money }} | {{ "%.1f" % (v / r.total * 100 if r.total else 0) }}% |
+{% endfor %}
+
+{% if r.unallocated %}
+> {{ r.unallocated | money }} {{ r.currency }} ({{ "%.1f" % r.unallocated_pct }}%) sin equipo asignado: faltan tags `team`.
+
+{% endif %}
+## Por servicio
+
+| Servicio | {{ r.currency }} |
+|---|---:|
+{% for s, v in r.by_service.items() %}
+| {{ s }} | {{ v | money }} |
+{% endfor %}
+
+## Por ambiente
+
+| Ambiente | {{ r.currency }} |
+|---|---:|
+{% for e, v in r.by_env.items() %}
+| {{ e }} | {{ v | money }} |
+{% endfor %}
+
+{% if r.movers %}
+## Mayores variaciones vs. período anterior
+
+| Equipo | Anterior | Actual | Δ |
+|---|---:|---:|---:|
+{% for m in r.movers %}
+| {{ m.key }} | {{ m.previous | money }} | {{ m.current | money }} | {{ m.pct | pct }} |
+{% endfor %}
+{% endif %}
