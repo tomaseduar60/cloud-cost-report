@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Costos cloud {{ r.start }} – {{ r.end }}</title>
+<style>
+  :root { --bg:#0f172a; --card:#1e293b; --fg:#e2e8f0; --muted:#94a3b8; --azure:#0078d4; --gcp:#34a853; --warn:#f59e0b; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:24px; font:14px/1.5 system-ui, sans-serif; background:var(--bg); color:var(--fg); }
+  h1 { font-size:20px; margin:0 0 16px; }
+  h2 { font-size:15px; color:var(--muted); margin:0 0 12px; font-weight:600; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); }
+  .card { background:var(--card); border-radius:12px; padding:16px; }
+  .kpi { font-size:28px; font-weight:700; }
+  table { width:100%; border-collapse:collapse; }
+  td, th { padding:6px 4px; border-bottom:1px solid #334155; text-align:left; }
+  td.n, th.n { text-align:right; font-variant-numeric:tabular-nums; }
+  .bars { display:flex; align-items:flex-end; gap:3px; height:140px; }
+  .bar { flex:1; display:flex; flex-direction:column-reverse; }
+  .bar span { display:block; }
+  .azure { background:var(--azure); } .gcp { background:var(--gcp); }
+  .warn { color:var(--warn); }
+  .legend span { display:inline-block; width:10px; height:10px; border-radius:2px; margin:0 4px 0 12px; }
+</style>
+</head>
+<body>
+<h1>Costos cloud · {{ r.start }} → {{ r.end }}</h1>
+
+<div class="grid">
+  <div class="card"><h2>Total</h2><div class="kpi">{{ r.total | money }} {{ r.currency }}</div></div>
+  {% for p, v in r.by_provider.items() %}
+  <div class="card"><h2>{{ p | upper }}</h2><div class="kpi">{{ v | money }}</div></div>
+  {% endfor %}
+  <div class="card"><h2>Sin asignar</h2><div class="kpi {{ 'warn' if r.unallocated_pct > 5 }}">{{ "%.1f" % r.unallocated_pct }}%</div></div>
+</div>
+
+<div class="card" style="margin-top:16px">
+  <h2>Costo diario <span class="legend"><span class="azure"></span>Azure<span class="gcp"></span>GCP</span></h2>
+  <div class="bars">
+    {% for day, providers in r.daily.items() %}
+    <div class="bar" title="{{ day }}: {{ providers.values() | sum | money }}">
+      {% for p in ["azure", "gcp"] %}
+      {% if providers.get(p) %}<span class="{{ p }}" style="height:{{ (providers[p] / max_day * 140) | round(1) }}px"></span>{% endif %}
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="grid" style="margin-top:16px">
+  <div class="card">
+    <h2>Por equipo</h2>
+    <table>{% for team, v in r.by_team.items() %}<tr><td>{{ team }}</td><td class="n">{{ v | money }}</td></tr>{% endfor %}</table>
+  </div>
+  <div class="card">
+    <h2>Por servicio</h2>
+    <table>{% for s, v in r.by_service.items() %}<tr><td>{{ s }}</td><td class="n">{{ v | money }}</td></tr>{% endfor %}</table>
+  </div>
+  <div class="card">
+    <h2>Presupuestos</h2>
+    <table>
+      <tr><th>Equipo</th><th class="n">Gastado</th><th class="n">Uso</th></tr>
+      {% for b in r.budgets %}
+      <tr class="{{ 'warn' if b in r.alerts }}"><td>{{ b.team }}</td><td class="n">{{ b.spent | money }}</td><td class="n">{{ "%.0f" % (b.ratio * 100) }}%</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+</body>
+</html>
