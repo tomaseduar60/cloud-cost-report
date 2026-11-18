@@ -7,7 +7,7 @@
 from __future__ import annotations
 
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import click
@@ -40,8 +40,8 @@ def cli() -> None:
 @cli.command()
 @click.option("--source", "sources", multiple=True, type=click.Choice(sorted(SOURCES)),
               default=("mock",), show_default=True, help="Origen de datos (repetible).")
-@click.option("--from", "start", type=click.DateTime(["%Y-%m-%d"]), required=True)
-@click.option("--to", "end", type=click.DateTime(["%Y-%m-%d"]), required=True)
+@click.option("--from", "start_dt", type=click.DateTime(["%Y-%m-%d"]), required=True)
+@click.option("--to", "end_dt", type=click.DateTime(["%Y-%m-%d"]), required=True)
 @click.option("--config", "config_path", type=click.Path(exists=True, path_type=Path),
               default="config.yaml", show_default=True)
 @click.option("--mock-dir", type=click.Path(path_type=Path), default="data/mock",
@@ -50,12 +50,10 @@ def cli() -> None:
               help="Directorio para report.md, report.html y costs.csv.")
 @click.option("--fail-on-alert", is_flag=True,
               help="Sale con código 3 si algún equipo pasa el umbral de presupuesto.")
-def build(sources: tuple[str, ...], start: date, end: date, config_path: Path, mock_dir: Path,
-          out_dir: Path | None, fail_on_alert: bool) -> None:
+def build(sources: tuple[str, ...], start_dt: datetime, end_dt: datetime, config_path: Path,
+          mock_dir: Path, out_dir: Path | None, fail_on_alert: bool) -> None:
     """Genera el reporte del período y lo compara con el período anterior de igual largo."""
-    start, end = start.date() if hasattr(start, "date") else start, (
-        end.date() if hasattr(end, "date") else end
-    )
+    start, end = start_dt.date(), end_dt.date()
     if end < start:
         raise click.BadParameter("--to no puede ser anterior a --from.")
     config = load_config(config_path)
