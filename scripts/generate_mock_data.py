@@ -21,7 +21,13 @@ rng = random.Random(42)
 
 AZURE = [
     # (suscripción, meter category, costo diario base, tags, moneda)
-    ("sub-platform-prd", "Azure Kubernetes Service", 110, {"team": "platform", "env": "prd"}, "USD"),
+    (
+        "sub-platform-prd",
+        "Azure Kubernetes Service",
+        110,
+        {"team": "platform", "env": "prd"},
+        "USD",
+    ),
     ("sub-platform-prd", "Virtual Machines", 45, {"team": "platform", "env": "prd"}, "USD"),
     ("sub-platform-prd", "Log Analytics", 18, {"env": "prd"}, "USD"),  # sin team
     ("sub-platform-dev", "Azure Kubernetes Service", 30, {"team": "platform", "env": "dev"}, "USD"),
@@ -54,22 +60,33 @@ def daily(base: float, day: int) -> float:
 
 def write_azure() -> None:
     with (OUT / "azure_cost_export.csv").open("w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=["Date", "SubscriptionName", "ResourceGroup",
-                                           "MeterCategory", "CostInBillingCurrency",
-                                           "BillingCurrency", "Tags"])
+        w = csv.DictWriter(
+            fh,
+            fieldnames=[
+                "Date",
+                "SubscriptionName",
+                "ResourceGroup",
+                "MeterCategory",
+                "CostInBillingCurrency",
+                "BillingCurrency",
+                "Tags",
+            ],
+        )
         w.writeheader()
         for d in range(DAYS):
             for sub, meter, base, tags, cur in AZURE:
                 cost = daily(base, d) if "Kubernetes" in meter else daily(base, min(d, 44))
-                w.writerow({
-                    "Date": (START + timedelta(days=d)).strftime("%Y%m%d"),
-                    "SubscriptionName": sub,
-                    "ResourceGroup": f"rg-{sub.removeprefix('sub-')}",
-                    "MeterCategory": meter,
-                    "CostInBillingCurrency": cost,
-                    "BillingCurrency": cur,
-                    "Tags": json.dumps(tags) if tags else "",
-                })
+                w.writerow(
+                    {
+                        "Date": (START + timedelta(days=d)).strftime("%Y%m%d"),
+                        "SubscriptionName": sub,
+                        "ResourceGroup": f"rg-{sub.removeprefix('sub-')}",
+                        "MeterCategory": meter,
+                        "CostInBillingCurrency": cost,
+                        "BillingCurrency": cur,
+                        "Tags": json.dumps(tags) if tags else "",
+                    }
+                )
 
 
 def write_gcp() -> None:
@@ -83,7 +100,9 @@ def write_gcp() -> None:
                     "service": {"description": service},
                     "cost": cost,
                     "currency": "USD",
-                    "credits": [{"name": "CUD", "amount": round(-cost * credit, 4)}] if credit else [],
+                    "credits": [{"name": "CUD", "amount": round(-cost * credit, 4)}]
+                    if credit
+                    else [],
                     "labels": [{"key": k, "value": v} for k, v in labels.items()],
                 }
                 fh.write(json.dumps(row) + "\n")

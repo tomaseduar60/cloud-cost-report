@@ -1,7 +1,7 @@
 """cost-report: arma el reporte de un período comparándolo con el período anterior.
 
-    cost-report build --source mock --from 2024-05-01 --to 2024-05-31
-    cost-report build --source azure --source gcp --from 2024-05-01 --to 2024-05-31 --out out/
+cost-report build --source mock --from 2024-05-01 --to 2024-05-31
+cost-report build --source azure --source gcp --from 2024-05-01 --to 2024-05-31 --out out/
 """
 
 from __future__ import annotations
@@ -38,20 +38,46 @@ def cli() -> None:
 
 
 @cli.command()
-@click.option("--source", "sources", multiple=True, type=click.Choice(sorted(SOURCES)),
-              default=("mock",), show_default=True, help="Origen de datos (repetible).")
+@click.option(
+    "--source",
+    "sources",
+    multiple=True,
+    type=click.Choice(sorted(SOURCES)),
+    default=("mock",),
+    show_default=True,
+    help="Origen de datos (repetible).",
+)
 @click.option("--from", "start_dt", type=click.DateTime(["%Y-%m-%d"]), required=True)
 @click.option("--to", "end_dt", type=click.DateTime(["%Y-%m-%d"]), required=True)
-@click.option("--config", "config_path", type=click.Path(exists=True, path_type=Path),
-              default="config.yaml", show_default=True)
-@click.option("--mock-dir", type=click.Path(path_type=Path), default="data/mock",
-              show_default=True)
-@click.option("--out", "out_dir", type=click.Path(path_type=Path), default=None,
-              help="Directorio para report.md, report.html y costs.csv.")
-@click.option("--fail-on-alert", is_flag=True,
-              help="Sale con código 3 si algún equipo pasa el umbral de presupuesto.")
-def build(sources: tuple[str, ...], start_dt: datetime, end_dt: datetime, config_path: Path,
-          mock_dir: Path, out_dir: Path | None, fail_on_alert: bool) -> None:
+@click.option(
+    "--config",
+    "config_path",
+    type=click.Path(exists=True, path_type=Path),
+    default="config.yaml",
+    show_default=True,
+)
+@click.option("--mock-dir", type=click.Path(path_type=Path), default="data/mock", show_default=True)
+@click.option(
+    "--out",
+    "out_dir",
+    type=click.Path(path_type=Path),
+    default=None,
+    help="Directorio para report.md, report.html y costs.csv.",
+)
+@click.option(
+    "--fail-on-alert",
+    is_flag=True,
+    help="Sale con código 3 si algún equipo pasa el umbral de presupuesto.",
+)
+def build(
+    sources: tuple[str, ...],
+    start_dt: datetime,
+    end_dt: datetime,
+    config_path: Path,
+    mock_dir: Path,
+    out_dir: Path | None,
+    fail_on_alert: bool,
+) -> None:
     """Genera el reporte del período y lo compara con el período anterior de igual largo."""
     start, end = start_dt.date(), end_dt.date()
     if end < start:

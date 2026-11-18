@@ -45,7 +45,9 @@ class AzureCostManagement:
             time_period=QueryTimePeriod(from_property=start, to=end),
             dataset=QueryDataset(
                 granularity="Daily",
-                aggregation={"cost": QueryAggregation(name="CostInBillingCurrency", function="Sum")},
+                aggregation={
+                    "cost": QueryAggregation(name="CostInBillingCurrency", function="Sum")
+                },
                 grouping=[
                     QueryGrouping(type="Dimension", name="SubscriptionName"),
                     QueryGrouping(type="Dimension", name="MeterCategory"),

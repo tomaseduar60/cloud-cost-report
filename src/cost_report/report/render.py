@@ -44,12 +44,36 @@ def to_html(report: Report) -> str:
 def to_csv(costs: list[AllocatedCost], currency: str) -> str:
     buf = io.StringIO()
     writer = csv.writer(buf)
-    writer.writerow(["day", "provider", "account", "service", "raw_service", "team", "env",
-                     f"amount_{currency.lower()}", "original_cost", "original_currency"])
+    writer.writerow(
+        [
+            "day",
+            "provider",
+            "account",
+            "service",
+            "raw_service",
+            "team",
+            "env",
+            f"amount_{currency.lower()}",
+            "original_cost",
+            "original_currency",
+        ]
+    )
     for c in sorted(costs, key=lambda c: (c.record.day, c.record.provider, c.record.account)):
         r = c.record
-        writer.writerow([r.day.isoformat(), r.provider, r.account, r.service, r.raw_service,
-                         c.team, c.env, f"{c.amount:.4f}", f"{r.cost:.4f}", r.currency])
+        writer.writerow(
+            [
+                r.day.isoformat(),
+                r.provider,
+                r.account,
+                r.service,
+                r.raw_service,
+                c.team,
+                c.env,
+                f"{c.amount:.4f}",
+                f"{r.cost:.4f}",
+                r.currency,
+            ]
+        )
     return buf.getvalue()
 
 
