@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cloud-cost-report"
+version = "0.1.0"
+description = "Reporte de costos multi-cloud (Azure + GCP) normalizado a un solo modelo."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Tomas Ojeda Stark" }]
+dependencies = [
+  "click>=8.1",
+  "jinja2>=3.1",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+azure = ["azure-identity>=1.15", "azure-mgmt-costmanagement>=4.0"]
+gcp = ["google-cloud-bigquery>=3.20"]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "ruff>=0.6", "mypy>=1.10", "types-PyYAML"]
+
+[project.scripts]
+cost-report = "cost_report.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cost_report"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["cost_report"]
+omit = ["src/cost_report/providers/azure.py", "src/cost_report/providers/gcp.py"]
