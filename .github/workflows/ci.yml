@@ -1,0 +1,34 @@
+name: ci
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches: [develop, qa, main]
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    uses: tomaseduar60/github-actions-templates/.github/workflows/reusable-python-ci.yml@v1
+    with:
+      python-version: "3.12"
+      coverage-threshold: 80
+
+  sample-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install .
+      - name: reporte de ejemplo con datos mock
+        run: |
+          cost-report build --from 2024-05-01 --to 2024-05-31 --out out
+          cat out/report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sample-report
+          path: out/
