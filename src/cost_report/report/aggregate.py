@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
-from collections.abc import Iterable
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
 from datetime import date
 from decimal import ROUND_HALF_UP, Decimal
@@ -73,13 +73,18 @@ def _sorted(totals: dict[str, Decimal]) -> dict[str, Decimal]:
     return {k: money(v) for k, v in sorted(totals.items(), key=lambda kv: kv[1], reverse=True)}
 
 
+KEYS: dict[str, Callable[[AllocatedCost], str]] = {
+    "provider": lambda c: c.record.provider,
+    "team": lambda c: c.team,
+    "service": lambda c: c.record.service,
+    "env": lambda c: c.env,
+}
+
+
 def _sum_by(costs: list[AllocatedCost], key: str) -> dict[str, Decimal]:
     totals: dict[str, Decimal] = defaultdict(Decimal)
     for c in costs:
-        value = c.record.provider if key == "provider" else getattr(c, key, None)
-        if value is None:
-            value = getattr(c.record, key)
-        totals[str(value)] += c.amount
+        totals[KEYS[key](c)] += c.amount
     return dict(totals)
 
 
