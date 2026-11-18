@@ -7,6 +7,7 @@ Autenticación con Application Default Credentials.
 
 from __future__ import annotations
 
+import json
 import os
 from collections.abc import Iterator
 from datetime import date
@@ -16,16 +17,16 @@ from .normalize import gcp_row
 
 SQL = """
 SELECT
-  DATE(usage_start_time) AS usage_start_time,
-  STRUCT(project.id AS id) AS project,
-  STRUCT(service.description AS description) AS service,
-  SUM(cost) AS cost,
+  DATE(usage_start_time) AS day,
+  project.id AS project_id,
+  service.description AS service_description,
   currency,
-  ARRAY_CONCAT_AGG(credits) AS credits,
-  ANY_VALUE(labels) AS labels
+  TO_JSON_STRING(labels) AS labels_json,
+  SUM(cost) AS cost,
+  SUM(IFNULL((SELECT SUM(c.amount) FROM UNNEST(credits) AS c), 0)) AS credits
 FROM `{table}`
 WHERE DATE(usage_start_time) BETWEEN @start AND @end
-GROUP BY 1, 2, 3, 5, TO_JSON_STRING(labels)
+GROUP BY day, project_id, service_description, currency, labels_json
 """
 
 
@@ -53,4 +54,14 @@ class GcpBillingExport:
             ),
         )
         for row in job.result():
-            yield gcp_row(dict(row.items()))
+            yield gcp_row(
+                {
+                    "usage_start_time": row["day"],
+                    "project": {"id": row["project_id"]},
+                    "service": {"description": row["service_description"]},
+                    "cost": row["cost"],
+                    "currency": row["currency"],
+                    "credits": [{"amount": row["credits"]}],
+                    "labels": json.loads(row["labels_json"] or "[]"),
+                }
+            )
