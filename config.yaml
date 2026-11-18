@@ -1,0 +1,20 @@
+# Moneda del reporte y tipos de cambio (1 unidad de la moneda origen = N USD).
+currency: USD
+rates:
+  EUR: "1.08"
+  MXN: "0.058"
+
+# Si un recurso no tiene tag/label `team`, se asigna al dueño de su cuenta.
+account_owners:
+  sub-platform-prd: platform
+  sub-data-prd: data
+  shop-prd-4821: commerce
+  analytics-prd-1177: data
+
+# Presupuesto mensual por equipo (USD). Alerta desde el 80 %.
+budgets:
+  platform: "9000"
+  commerce: "7500"
+  data: "6000"
+  payments: "3000"
+alert_threshold: "0.8"
