@@ -1,0 +1,550 @@
+Date,SubscriptionName,ResourceGroup,MeterCategory,CostInBillingCurrency,BillingCurrency,Tags
+20240401,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,113.0674,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240401,sub-platform-prd,rg-platform-prd,Virtual Machines,40.7251,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240401,sub-platform-prd,rg-platform-prd,Log Analytics,17.1901,USD,"{""env"": ""prd""}"
+20240401,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.3393,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240401,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.8377,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240401,sub-data-prd,rg-data-prd,Storage,14.4948,USD,
+20240401,sub-payments-prd,rg-payments-prd,Azure App Service,23.7256,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240401,sub-payments-prd,rg-payments-prd,Bandwidth,5.5043,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240401,sub-shared,rg-shared,Virtual Network,8.8595,USD,
+20240402,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,99.8548,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240402,sub-platform-prd,rg-platform-prd,Virtual Machines,42.5527,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240402,sub-platform-prd,rg-platform-prd,Log Analytics,18.0553,USD,"{""env"": ""prd""}"
+20240402,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,27.2135,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240402,sub-data-prd,rg-data-prd,Azure Cosmos DB,56.4988,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240402,sub-data-prd,rg-data-prd,Storage,14.4485,USD,
+20240402,sub-payments-prd,rg-payments-prd,Azure App Service,22.2421,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240402,sub-payments-prd,rg-payments-prd,Bandwidth,5.6759,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240402,sub-shared,rg-shared,Virtual Network,9.179,USD,
+20240403,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,117.2747,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240403,sub-platform-prd,rg-platform-prd,Virtual Machines,40.7207,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240403,sub-platform-prd,rg-platform-prd,Log Analytics,19.1774,USD,"{""env"": ""prd""}"
+20240403,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.3136,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240403,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.3153,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240403,sub-data-prd,rg-data-prd,Storage,13.0875,USD,
+20240403,sub-payments-prd,rg-payments-prd,Azure App Service,24.1078,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240403,sub-payments-prd,rg-payments-prd,Bandwidth,5.8271,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240403,sub-shared,rg-shared,Virtual Network,8.3,USD,
+20240404,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,101.7345,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240404,sub-platform-prd,rg-platform-prd,Virtual Machines,48.4162,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240404,sub-platform-prd,rg-platform-prd,Log Analytics,18.4837,USD,"{""env"": ""prd""}"
+20240404,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.0338,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240404,sub-data-prd,rg-data-prd,Azure Cosmos DB,63.1333,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240404,sub-data-prd,rg-data-prd,Storage,14.186,USD,
+20240404,sub-payments-prd,rg-payments-prd,Azure App Service,24.2262,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240404,sub-payments-prd,rg-payments-prd,Bandwidth,5.8894,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240404,sub-shared,rg-shared,Virtual Network,9.1482,USD,
+20240405,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,118.1849,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240405,sub-platform-prd,rg-platform-prd,Virtual Machines,46.4352,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240405,sub-platform-prd,rg-platform-prd,Log Analytics,19.4566,USD,"{""env"": ""prd""}"
+20240405,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.7078,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240405,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.9545,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240405,sub-data-prd,rg-data-prd,Storage,12.8301,USD,
+20240405,sub-payments-prd,rg-payments-prd,Azure App Service,20.9692,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240405,sub-payments-prd,rg-payments-prd,Bandwidth,5.7932,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240405,sub-shared,rg-shared,Virtual Network,8.3096,USD,
+20240406,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,89.3882,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240406,sub-platform-prd,rg-platform-prd,Virtual Machines,35.5496,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240406,sub-platform-prd,rg-platform-prd,Log Analytics,14.7668,USD,"{""env"": ""prd""}"
+20240406,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,26.4539,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240406,sub-data-prd,rg-data-prd,Azure Cosmos DB,50.1175,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240406,sub-data-prd,rg-data-prd,Storage,11.7069,USD,
+20240406,sub-payments-prd,rg-payments-prd,Azure App Service,17.7897,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240406,sub-payments-prd,rg-payments-prd,Bandwidth,4.9109,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240406,sub-shared,rg-shared,Virtual Network,8.4013,USD,
+20240407,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,97.4235,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240407,sub-platform-prd,rg-platform-prd,Virtual Machines,39.5539,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240407,sub-platform-prd,rg-platform-prd,Log Analytics,14.4652,USD,"{""env"": ""prd""}"
+20240407,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,26.9886,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240407,sub-data-prd,rg-data-prd,Azure Cosmos DB,48.1375,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240407,sub-data-prd,rg-data-prd,Storage,11.7525,USD,
+20240407,sub-payments-prd,rg-payments-prd,Azure App Service,20.7772,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240407,sub-payments-prd,rg-payments-prd,Bandwidth,5.3057,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240407,sub-shared,rg-shared,Virtual Network,7.83,USD,
+20240408,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,115.6584,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240408,sub-platform-prd,rg-platform-prd,Virtual Machines,48.7589,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240408,sub-platform-prd,rg-platform-prd,Log Analytics,19.2595,USD,"{""env"": ""prd""}"
+20240408,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.7715,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240408,sub-data-prd,rg-data-prd,Azure Cosmos DB,55.1466,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240408,sub-data-prd,rg-data-prd,Storage,13.672,USD,
+20240408,sub-payments-prd,rg-payments-prd,Azure App Service,21.2718,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240408,sub-payments-prd,rg-payments-prd,Bandwidth,5.7323,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240408,sub-shared,rg-shared,Virtual Network,9.9344,USD,
+20240409,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,120.1726,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240409,sub-platform-prd,rg-platform-prd,Virtual Machines,44.0254,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240409,sub-platform-prd,rg-platform-prd,Log Analytics,18.8565,USD,"{""env"": ""prd""}"
+20240409,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.8438,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240409,sub-data-prd,rg-data-prd,Azure Cosmos DB,66.0142,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240409,sub-data-prd,rg-data-prd,Storage,14.1069,USD,
+20240409,sub-payments-prd,rg-payments-prd,Azure App Service,21.3009,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240409,sub-payments-prd,rg-payments-prd,Bandwidth,5.7871,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240409,sub-shared,rg-shared,Virtual Network,9.2562,USD,
+20240410,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,106.6664,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240410,sub-platform-prd,rg-platform-prd,Virtual Machines,46.585,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240410,sub-platform-prd,rg-platform-prd,Log Analytics,19.7819,USD,"{""env"": ""prd""}"
+20240410,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.9255,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240410,sub-data-prd,rg-data-prd,Azure Cosmos DB,57.6512,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240410,sub-data-prd,rg-data-prd,Storage,15.6702,USD,
+20240410,sub-payments-prd,rg-payments-prd,Azure App Service,22.4387,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240410,sub-payments-prd,rg-payments-prd,Bandwidth,5.6083,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240410,sub-shared,rg-shared,Virtual Network,8.3321,USD,
+20240411,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,103.4405,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240411,sub-platform-prd,rg-platform-prd,Virtual Machines,47.07,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240411,sub-platform-prd,rg-platform-prd,Log Analytics,19.4325,USD,"{""env"": ""prd""}"
+20240411,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.1236,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240411,sub-data-prd,rg-data-prd,Azure Cosmos DB,55.8576,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240411,sub-data-prd,rg-data-prd,Storage,13.9419,USD,
+20240411,sub-payments-prd,rg-payments-prd,Azure App Service,24.6666,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240411,sub-payments-prd,rg-payments-prd,Bandwidth,6.1556,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240411,sub-shared,rg-shared,Virtual Network,10.0449,USD,
+20240412,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,120.5318,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240412,sub-platform-prd,rg-platform-prd,Virtual Machines,41.4966,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240412,sub-platform-prd,rg-platform-prd,Log Analytics,19.2081,USD,"{""env"": ""prd""}"
+20240412,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.7742,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240412,sub-data-prd,rg-data-prd,Azure Cosmos DB,61.7734,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240412,sub-data-prd,rg-data-prd,Storage,13.6407,USD,
+20240412,sub-payments-prd,rg-payments-prd,Azure App Service,23.1179,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240412,sub-payments-prd,rg-payments-prd,Bandwidth,5.6556,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240412,sub-shared,rg-shared,Virtual Network,9.078,USD,
+20240413,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,94.8579,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240413,sub-platform-prd,rg-platform-prd,Virtual Machines,42.723,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240413,sub-platform-prd,rg-platform-prd,Log Analytics,16.8449,USD,"{""env"": ""prd""}"
+20240413,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,24.8763,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240413,sub-data-prd,rg-data-prd,Azure Cosmos DB,52.2301,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240413,sub-data-prd,rg-data-prd,Storage,11.4024,USD,
+20240413,sub-payments-prd,rg-payments-prd,Azure App Service,20.7291,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240413,sub-payments-prd,rg-payments-prd,Bandwidth,5.6094,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240413,sub-shared,rg-shared,Virtual Network,7.5178,USD,
+20240414,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,98.5969,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240414,sub-platform-prd,rg-platform-prd,Virtual Machines,40.0998,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240414,sub-platform-prd,rg-platform-prd,Log Analytics,14.6079,USD,"{""env"": ""prd""}"
+20240414,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,27.5366,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240414,sub-data-prd,rg-data-prd,Azure Cosmos DB,52.7381,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240414,sub-data-prd,rg-data-prd,Storage,12.8898,USD,
+20240414,sub-payments-prd,rg-payments-prd,Azure App Service,19.3027,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240414,sub-payments-prd,rg-payments-prd,Bandwidth,4.7099,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240414,sub-shared,rg-shared,Virtual Network,7.5729,USD,
+20240415,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,102.2125,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240415,sub-platform-prd,rg-platform-prd,Virtual Machines,50.23,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240415,sub-platform-prd,rg-platform-prd,Log Analytics,19.9056,USD,"{""env"": ""prd""}"
+20240415,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.8857,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240415,sub-data-prd,rg-data-prd,Azure Cosmos DB,59.3055,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240415,sub-data-prd,rg-data-prd,Storage,13.1195,USD,
+20240415,sub-payments-prd,rg-payments-prd,Azure App Service,24.3258,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240415,sub-payments-prd,rg-payments-prd,Bandwidth,6.7194,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240415,sub-shared,rg-shared,Virtual Network,8.4853,USD,
+20240416,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,112.9825,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240416,sub-platform-prd,rg-platform-prd,Virtual Machines,42.3566,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240416,sub-platform-prd,rg-platform-prd,Log Analytics,19.5063,USD,"{""env"": ""prd""}"
+20240416,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.5429,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240416,sub-data-prd,rg-data-prd,Azure Cosmos DB,57.2069,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240416,sub-data-prd,rg-data-prd,Storage,14.3487,USD,
+20240416,sub-payments-prd,rg-payments-prd,Azure App Service,22.8857,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240416,sub-payments-prd,rg-payments-prd,Bandwidth,5.8896,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240416,sub-shared,rg-shared,Virtual Network,9.9605,USD,
+20240417,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,111.7749,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240417,sub-platform-prd,rg-platform-prd,Virtual Machines,43.7632,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240417,sub-platform-prd,rg-platform-prd,Log Analytics,18.722,USD,"{""env"": ""prd""}"
+20240417,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.3837,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240417,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.2191,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240417,sub-data-prd,rg-data-prd,Storage,13.9039,USD,
+20240417,sub-payments-prd,rg-payments-prd,Azure App Service,24.9524,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240417,sub-payments-prd,rg-payments-prd,Bandwidth,6.3776,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240417,sub-shared,rg-shared,Virtual Network,9.173,USD,
+20240418,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,114.1398,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240418,sub-platform-prd,rg-platform-prd,Virtual Machines,43.0031,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240418,sub-platform-prd,rg-platform-prd,Log Analytics,17.5872,USD,"{""env"": ""prd""}"
+20240418,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.0155,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240418,sub-data-prd,rg-data-prd,Azure Cosmos DB,63.1357,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240418,sub-data-prd,rg-data-prd,Storage,13.6946,USD,
+20240418,sub-payments-prd,rg-payments-prd,Azure App Service,21.4751,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240418,sub-payments-prd,rg-payments-prd,Bandwidth,5.6717,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240418,sub-shared,rg-shared,Virtual Network,9.55,USD,
+20240419,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,107.782,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240419,sub-platform-prd,rg-platform-prd,Virtual Machines,50.4001,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240419,sub-platform-prd,rg-platform-prd,Log Analytics,19.9893,USD,"{""env"": ""prd""}"
+20240419,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.4124,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240419,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.9029,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240419,sub-data-prd,rg-data-prd,Storage,14.9942,USD,
+20240419,sub-payments-prd,rg-payments-prd,Azure App Service,21.4894,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240419,sub-payments-prd,rg-payments-prd,Bandwidth,5.7589,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240419,sub-shared,rg-shared,Virtual Network,10.1361,USD,
+20240420,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,98.432,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240420,sub-platform-prd,rg-platform-prd,Virtual Machines,39.4865,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240420,sub-platform-prd,rg-platform-prd,Log Analytics,16.7854,USD,"{""env"": ""prd""}"
+20240420,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.0968,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240420,sub-data-prd,rg-data-prd,Azure Cosmos DB,49.6602,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240420,sub-data-prd,rg-data-prd,Storage,11.3564,USD,
+20240420,sub-payments-prd,rg-payments-prd,Azure App Service,19.1429,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240420,sub-payments-prd,rg-payments-prd,Bandwidth,5.2129,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240420,sub-shared,rg-shared,Virtual Network,7.8883,USD,
+20240421,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,101.6951,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240421,sub-platform-prd,rg-platform-prd,Virtual Machines,41.1593,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240421,sub-platform-prd,rg-platform-prd,Log Analytics,17.4528,USD,"{""env"": ""prd""}"
+20240421,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,24.39,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240421,sub-data-prd,rg-data-prd,Azure Cosmos DB,52.007,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240421,sub-data-prd,rg-data-prd,Storage,11.9782,USD,
+20240421,sub-payments-prd,rg-payments-prd,Azure App Service,20.8548,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240421,sub-payments-prd,rg-payments-prd,Bandwidth,5.0374,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240421,sub-shared,rg-shared,Virtual Network,7.4631,USD,
+20240422,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,113.442,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240422,sub-platform-prd,rg-platform-prd,Virtual Machines,46.1574,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240422,sub-platform-prd,rg-platform-prd,Log Analytics,17.9253,USD,"{""env"": ""prd""}"
+20240422,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.6958,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240422,sub-data-prd,rg-data-prd,Azure Cosmos DB,67.8125,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240422,sub-data-prd,rg-data-prd,Storage,14.4221,USD,
+20240422,sub-payments-prd,rg-payments-prd,Azure App Service,24.5807,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240422,sub-payments-prd,rg-payments-prd,Bandwidth,6.3149,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240422,sub-shared,rg-shared,Virtual Network,8.5351,USD,
+20240423,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,126.3075,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240423,sub-platform-prd,rg-platform-prd,Virtual Machines,50.1373,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240423,sub-platform-prd,rg-platform-prd,Log Analytics,20.5547,USD,"{""env"": ""prd""}"
+20240423,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,33.9908,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240423,sub-data-prd,rg-data-prd,Azure Cosmos DB,67.0085,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240423,sub-data-prd,rg-data-prd,Storage,13.6406,USD,
+20240423,sub-payments-prd,rg-payments-prd,Azure App Service,22.902,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240423,sub-payments-prd,rg-payments-prd,Bandwidth,5.9054,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240423,sub-shared,rg-shared,Virtual Network,9.21,USD,
+20240424,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,104.9033,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240424,sub-platform-prd,rg-platform-prd,Virtual Machines,45.9307,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240424,sub-platform-prd,rg-platform-prd,Log Analytics,20.6555,USD,"{""env"": ""prd""}"
+20240424,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.9064,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240424,sub-data-prd,rg-data-prd,Azure Cosmos DB,66.3257,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240424,sub-data-prd,rg-data-prd,Storage,14.5122,USD,
+20240424,sub-payments-prd,rg-payments-prd,Azure App Service,22.6576,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240424,sub-payments-prd,rg-payments-prd,Bandwidth,6.85,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240424,sub-shared,rg-shared,Virtual Network,10.3468,USD,
+20240425,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,116.5658,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240425,sub-platform-prd,rg-platform-prd,Virtual Machines,49.22,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240425,sub-platform-prd,rg-platform-prd,Log Analytics,17.5616,USD,"{""env"": ""prd""}"
+20240425,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.1617,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240425,sub-data-prd,rg-data-prd,Azure Cosmos DB,68.7745,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240425,sub-data-prd,rg-data-prd,Storage,14.9043,USD,
+20240425,sub-payments-prd,rg-payments-prd,Azure App Service,23.2506,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240425,sub-payments-prd,rg-payments-prd,Bandwidth,6.5999,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240425,sub-shared,rg-shared,Virtual Network,8.5966,USD,
+20240426,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,117.4445,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240426,sub-platform-prd,rg-platform-prd,Virtual Machines,47.2769,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240426,sub-platform-prd,rg-platform-prd,Log Analytics,20.2333,USD,"{""env"": ""prd""}"
+20240426,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.3418,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240426,sub-data-prd,rg-data-prd,Azure Cosmos DB,68.8058,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240426,sub-data-prd,rg-data-prd,Storage,13.4655,USD,
+20240426,sub-payments-prd,rg-payments-prd,Azure App Service,21.6485,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240426,sub-payments-prd,rg-payments-prd,Bandwidth,6.4197,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240426,sub-shared,rg-shared,Virtual Network,9.7812,USD,
+20240427,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,93.1528,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240427,sub-platform-prd,rg-platform-prd,Virtual Machines,37.1799,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240427,sub-platform-prd,rg-platform-prd,Log Analytics,17.352,USD,"{""env"": ""prd""}"
+20240427,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,25.4644,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240427,sub-data-prd,rg-data-prd,Azure Cosmos DB,54.6662,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240427,sub-data-prd,rg-data-prd,Storage,12.8177,USD,
+20240427,sub-payments-prd,rg-payments-prd,Azure App Service,19.3546,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240427,sub-payments-prd,rg-payments-prd,Bandwidth,5.455,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240427,sub-shared,rg-shared,Virtual Network,8.0845,USD,
+20240428,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,107.117,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240428,sub-platform-prd,rg-platform-prd,Virtual Machines,37.9309,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240428,sub-platform-prd,rg-platform-prd,Log Analytics,16.8235,USD,"{""env"": ""prd""}"
+20240428,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,25.4723,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240428,sub-data-prd,rg-data-prd,Azure Cosmos DB,52.6336,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240428,sub-data-prd,rg-data-prd,Storage,12.9733,USD,
+20240428,sub-payments-prd,rg-payments-prd,Azure App Service,18.9214,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240428,sub-payments-prd,rg-payments-prd,Bandwidth,5.1778,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240428,sub-shared,rg-shared,Virtual Network,8.4693,USD,
+20240429,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,106.2293,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240429,sub-platform-prd,rg-platform-prd,Virtual Machines,47.1235,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240429,sub-platform-prd,rg-platform-prd,Log Analytics,20.9029,USD,"{""env"": ""prd""}"
+20240429,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,34.8233,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240429,sub-data-prd,rg-data-prd,Azure Cosmos DB,57.9524,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240429,sub-data-prd,rg-data-prd,Storage,13.9359,USD,
+20240429,sub-payments-prd,rg-payments-prd,Azure App Service,22.141,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240429,sub-payments-prd,rg-payments-prd,Bandwidth,6.885,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240429,sub-shared,rg-shared,Virtual Network,10.2279,USD,
+20240430,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,125.2079,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240430,sub-platform-prd,rg-platform-prd,Virtual Machines,46.3676,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240430,sub-platform-prd,rg-platform-prd,Log Analytics,17.7404,USD,"{""env"": ""prd""}"
+20240430,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,33.8586,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240430,sub-data-prd,rg-data-prd,Azure Cosmos DB,66.0641,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240430,sub-data-prd,rg-data-prd,Storage,15.1428,USD,
+20240430,sub-payments-prd,rg-payments-prd,Azure App Service,25.5442,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240430,sub-payments-prd,rg-payments-prd,Bandwidth,6.5435,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240430,sub-shared,rg-shared,Virtual Network,8.5847,USD,
+20240501,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,123.9949,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240501,sub-platform-prd,rg-platform-prd,Virtual Machines,45.7861,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240501,sub-platform-prd,rg-platform-prd,Log Analytics,19.7035,USD,"{""env"": ""prd""}"
+20240501,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,34.5916,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240501,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.9482,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240501,sub-data-prd,rg-data-prd,Storage,13.6986,USD,
+20240501,sub-payments-prd,rg-payments-prd,Azure App Service,21.4872,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240501,sub-payments-prd,rg-payments-prd,Bandwidth,6.4277,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240501,sub-shared,rg-shared,Virtual Network,9.1056,USD,
+20240502,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,119.2692,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240502,sub-platform-prd,rg-platform-prd,Virtual Machines,49.8699,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240502,sub-platform-prd,rg-platform-prd,Log Analytics,17.9828,USD,"{""env"": ""prd""}"
+20240502,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.7154,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240502,sub-data-prd,rg-data-prd,Azure Cosmos DB,60.7122,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240502,sub-data-prd,rg-data-prd,Storage,14.8339,USD,
+20240502,sub-payments-prd,rg-payments-prd,Azure App Service,25.2581,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240502,sub-payments-prd,rg-payments-prd,Bandwidth,6.8131,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240502,sub-shared,rg-shared,Virtual Network,8.7786,USD,
+20240503,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,115.2511,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240503,sub-platform-prd,rg-platform-prd,Virtual Machines,45.7415,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240503,sub-platform-prd,rg-platform-prd,Log Analytics,17.2504,USD,"{""env"": ""prd""}"
+20240503,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,33.6508,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240503,sub-data-prd,rg-data-prd,Azure Cosmos DB,65.5907,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240503,sub-data-prd,rg-data-prd,Storage,14.1868,USD,
+20240503,sub-payments-prd,rg-payments-prd,Azure App Service,24.5373,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240503,sub-payments-prd,rg-payments-prd,Bandwidth,6.45,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240503,sub-shared,rg-shared,Virtual Network,9.4375,USD,
+20240504,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,89.8967,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240504,sub-platform-prd,rg-platform-prd,Virtual Machines,37.3107,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240504,sub-platform-prd,rg-platform-prd,Log Analytics,17.5595,USD,"{""env"": ""prd""}"
+20240504,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.379,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240504,sub-data-prd,rg-data-prd,Azure Cosmos DB,54.8617,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240504,sub-data-prd,rg-data-prd,Storage,13.5343,USD,
+20240504,sub-payments-prd,rg-payments-prd,Azure App Service,20.2632,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240504,sub-payments-prd,rg-payments-prd,Bandwidth,5.054,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240504,sub-shared,rg-shared,Virtual Network,7.5473,USD,
+20240505,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,96.0286,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240505,sub-platform-prd,rg-platform-prd,Virtual Machines,44.1108,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240505,sub-platform-prd,rg-platform-prd,Log Analytics,17.3082,USD,"{""env"": ""prd""}"
+20240505,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.1987,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240505,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.8137,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240505,sub-data-prd,rg-data-prd,Storage,11.9723,USD,
+20240505,sub-payments-prd,rg-payments-prd,Azure App Service,18.9711,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240505,sub-payments-prd,rg-payments-prd,Bandwidth,5.0141,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240505,sub-shared,rg-shared,Virtual Network,8.6279,USD,
+20240506,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,126.7425,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240506,sub-platform-prd,rg-platform-prd,Virtual Machines,47.2484,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240506,sub-platform-prd,rg-platform-prd,Log Analytics,19.7248,USD,"{""env"": ""prd""}"
+20240506,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,29.8822,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240506,sub-data-prd,rg-data-prd,Azure Cosmos DB,69.7197,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240506,sub-data-prd,rg-data-prd,Storage,16.0724,USD,
+20240506,sub-payments-prd,rg-payments-prd,Azure App Service,25.782,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240506,sub-payments-prd,rg-payments-prd,Bandwidth,6.819,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240506,sub-shared,rg-shared,Virtual Network,10.3646,USD,
+20240507,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,106.7126,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240507,sub-platform-prd,rg-platform-prd,Virtual Machines,50.5224,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240507,sub-platform-prd,rg-platform-prd,Log Analytics,18.6484,USD,"{""env"": ""prd""}"
+20240507,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,34.931,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240507,sub-data-prd,rg-data-prd,Azure Cosmos DB,68.208,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240507,sub-data-prd,rg-data-prd,Storage,16.1008,USD,
+20240507,sub-payments-prd,rg-payments-prd,Azure App Service,25.0497,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240507,sub-payments-prd,rg-payments-prd,Bandwidth,6.132,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240507,sub-shared,rg-shared,Virtual Network,10.2025,USD,
+20240508,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,108.8801,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240508,sub-platform-prd,rg-platform-prd,Virtual Machines,51.9274,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240508,sub-platform-prd,rg-platform-prd,Log Analytics,20.7185,USD,"{""env"": ""prd""}"
+20240508,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.4314,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240508,sub-data-prd,rg-data-prd,Azure Cosmos DB,68.5202,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240508,sub-data-prd,rg-data-prd,Storage,14.9166,USD,
+20240508,sub-payments-prd,rg-payments-prd,Azure App Service,22.7074,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240508,sub-payments-prd,rg-payments-prd,Bandwidth,6.8246,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240508,sub-shared,rg-shared,Virtual Network,9.1394,USD,
+20240509,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,107.0842,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240509,sub-platform-prd,rg-platform-prd,Virtual Machines,45.4483,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240509,sub-platform-prd,rg-platform-prd,Log Analytics,18.7028,USD,"{""env"": ""prd""}"
+20240509,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,34.6323,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240509,sub-data-prd,rg-data-prd,Azure Cosmos DB,70.5885,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240509,sub-data-prd,rg-data-prd,Storage,14.3985,USD,
+20240509,sub-payments-prd,rg-payments-prd,Azure App Service,24.3418,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240509,sub-payments-prd,rg-payments-prd,Bandwidth,6.3265,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240509,sub-shared,rg-shared,Virtual Network,10.6159,USD,
+20240510,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,119.4389,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240510,sub-platform-prd,rg-platform-prd,Virtual Machines,52.7715,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240510,sub-platform-prd,rg-platform-prd,Log Analytics,17.9112,USD,"{""env"": ""prd""}"
+20240510,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,35.3826,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240510,sub-data-prd,rg-data-prd,Azure Cosmos DB,60.522,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240510,sub-data-prd,rg-data-prd,Storage,16.4881,USD,
+20240510,sub-payments-prd,rg-payments-prd,Azure App Service,22.6036,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240510,sub-payments-prd,rg-payments-prd,Bandwidth,5.9614,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240510,sub-shared,rg-shared,Virtual Network,9.575,USD,
+20240511,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,105.5957,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240511,sub-platform-prd,rg-platform-prd,Virtual Machines,39.7706,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240511,sub-platform-prd,rg-platform-prd,Log Analytics,16.875,USD,"{""env"": ""prd""}"
+20240511,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,27.6029,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240511,sub-data-prd,rg-data-prd,Azure Cosmos DB,53.8153,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240511,sub-data-prd,rg-data-prd,Storage,13.0489,USD,
+20240511,sub-payments-prd,rg-payments-prd,Azure App Service,19.2053,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240511,sub-payments-prd,rg-payments-prd,Bandwidth,5.738,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240511,sub-shared,rg-shared,Virtual Network,7.4386,USD,
+20240512,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,109.7778,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240512,sub-platform-prd,rg-platform-prd,Virtual Machines,41.7048,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240512,sub-platform-prd,rg-platform-prd,Log Analytics,17.2811,USD,"{""env"": ""prd""}"
+20240512,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.9261,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240512,sub-data-prd,rg-data-prd,Azure Cosmos DB,57.0651,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240512,sub-data-prd,rg-data-prd,Storage,12.5261,USD,
+20240512,sub-payments-prd,rg-payments-prd,Azure App Service,18.4932,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240512,sub-payments-prd,rg-payments-prd,Bandwidth,5.6995,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240512,sub-shared,rg-shared,Virtual Network,7.9962,USD,
+20240513,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,114.8023,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240513,sub-platform-prd,rg-platform-prd,Virtual Machines,52.1752,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240513,sub-platform-prd,rg-platform-prd,Log Analytics,20.3696,USD,"{""env"": ""prd""}"
+20240513,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.2213,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240513,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.5592,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240513,sub-data-prd,rg-data-prd,Storage,14.898,USD,
+20240513,sub-payments-prd,rg-payments-prd,Azure App Service,23.3825,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240513,sub-payments-prd,rg-payments-prd,Bandwidth,6.2382,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240513,sub-shared,rg-shared,Virtual Network,9.0288,USD,
+20240514,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,117.5593,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240514,sub-platform-prd,rg-platform-prd,Virtual Machines,53.1741,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240514,sub-platform-prd,rg-platform-prd,Log Analytics,20.2412,USD,"{""env"": ""prd""}"
+20240514,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,35.2047,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240514,sub-data-prd,rg-data-prd,Azure Cosmos DB,66.6654,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240514,sub-data-prd,rg-data-prd,Storage,14.5987,USD,
+20240514,sub-payments-prd,rg-payments-prd,Azure App Service,24.1211,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240514,sub-payments-prd,rg-payments-prd,Bandwidth,5.8649,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240514,sub-shared,rg-shared,Virtual Network,9.3575,USD,
+20240515,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,118.0018,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240515,sub-platform-prd,rg-platform-prd,Virtual Machines,49.7432,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240515,sub-platform-prd,rg-platform-prd,Log Analytics,20.19,USD,"{""env"": ""prd""}"
+20240515,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.4114,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240515,sub-data-prd,rg-data-prd,Azure Cosmos DB,64.5248,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240515,sub-data-prd,rg-data-prd,Storage,14.3598,USD,
+20240515,sub-payments-prd,rg-payments-prd,Azure App Service,23.8076,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240515,sub-payments-prd,rg-payments-prd,Bandwidth,7.0518,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240515,sub-shared,rg-shared,Virtual Network,10.3717,USD,
+20240516,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,268.7501,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240516,sub-platform-prd,rg-platform-prd,Virtual Machines,44.8943,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240516,sub-platform-prd,rg-platform-prd,Log Analytics,19.6445,USD,"{""env"": ""prd""}"
+20240516,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,80.5666,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240516,sub-data-prd,rg-data-prd,Azure Cosmos DB,63.1282,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240516,sub-data-prd,rg-data-prd,Storage,16.202,USD,
+20240516,sub-payments-prd,rg-payments-prd,Azure App Service,25.1382,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240516,sub-payments-prd,rg-payments-prd,Bandwidth,6.7536,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240516,sub-shared,rg-shared,Virtual Network,9.2527,USD,
+20240517,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,270.9406,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240517,sub-platform-prd,rg-platform-prd,Virtual Machines,44.3032,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240517,sub-platform-prd,rg-platform-prd,Log Analytics,18.5846,USD,"{""env"": ""prd""}"
+20240517,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,78.233,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240517,sub-data-prd,rg-data-prd,Azure Cosmos DB,69.8462,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240517,sub-data-prd,rg-data-prd,Storage,13.9307,USD,
+20240517,sub-payments-prd,rg-payments-prd,Azure App Service,23.5264,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240517,sub-payments-prd,rg-payments-prd,Bandwidth,6.6974,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240517,sub-shared,rg-shared,Virtual Network,9.1936,USD,
+20240518,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,255.1343,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240518,sub-platform-prd,rg-platform-prd,Virtual Machines,48.9049,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240518,sub-platform-prd,rg-platform-prd,Log Analytics,18.5812,USD,"{""env"": ""prd""}"
+20240518,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,69.0425,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240518,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.8244,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240518,sub-data-prd,rg-data-prd,Storage,15.9965,USD,
+20240518,sub-payments-prd,rg-payments-prd,Azure App Service,25.2288,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240518,sub-payments-prd,rg-payments-prd,Bandwidth,6.0144,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240518,sub-shared,rg-shared,Virtual Network,9.6454,USD,
+20240519,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,95.8332,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240519,sub-platform-prd,rg-platform-prd,Virtual Machines,53.4444,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240519,sub-platform-prd,rg-platform-prd,Log Analytics,19.6543,USD,"{""env"": ""prd""}"
+20240519,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,25.4339,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240519,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.0055,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240519,sub-data-prd,rg-data-prd,Storage,16.2932,USD,
+20240519,sub-payments-prd,rg-payments-prd,Azure App Service,23.7276,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240519,sub-payments-prd,rg-payments-prd,Bandwidth,6.9215,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240519,sub-shared,rg-shared,Virtual Network,10.1202,USD,
+20240520,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,132.5655,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240520,sub-platform-prd,rg-platform-prd,Virtual Machines,49.8947,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240520,sub-platform-prd,rg-platform-prd,Log Analytics,21.3467,USD,"{""env"": ""prd""}"
+20240520,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,35.5187,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240520,sub-data-prd,rg-data-prd,Azure Cosmos DB,66.7508,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240520,sub-data-prd,rg-data-prd,Storage,15.9,USD,
+20240520,sub-payments-prd,rg-payments-prd,Azure App Service,23.9589,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240520,sub-payments-prd,rg-payments-prd,Bandwidth,6.9596,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240520,sub-shared,rg-shared,Virtual Network,9.8858,USD,
+20240521,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,130.6124,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240521,sub-platform-prd,rg-platform-prd,Virtual Machines,51.3459,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240521,sub-platform-prd,rg-platform-prd,Log Analytics,19.4848,USD,"{""env"": ""prd""}"
+20240521,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.4107,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240521,sub-data-prd,rg-data-prd,Azure Cosmos DB,61.98,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240521,sub-data-prd,rg-data-prd,Storage,15.6514,USD,
+20240521,sub-payments-prd,rg-payments-prd,Azure App Service,25.2085,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240521,sub-payments-prd,rg-payments-prd,Bandwidth,6.5558,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240521,sub-shared,rg-shared,Virtual Network,10.0402,USD,
+20240522,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,115.7553,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240522,sub-platform-prd,rg-platform-prd,Virtual Machines,44.8227,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240522,sub-platform-prd,rg-platform-prd,Log Analytics,18.7447,USD,"{""env"": ""prd""}"
+20240522,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.5506,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240522,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.9261,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240522,sub-data-prd,rg-data-prd,Storage,15.3543,USD,
+20240522,sub-payments-prd,rg-payments-prd,Azure App Service,22.2048,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240522,sub-payments-prd,rg-payments-prd,Bandwidth,6.1771,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240522,sub-shared,rg-shared,Virtual Network,10.1718,USD,
+20240523,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,126.4535,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240523,sub-platform-prd,rg-platform-prd,Virtual Machines,44.6929,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240523,sub-platform-prd,rg-platform-prd,Log Analytics,19.2221,USD,"{""env"": ""prd""}"
+20240523,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,33.4023,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240523,sub-data-prd,rg-data-prd,Azure Cosmos DB,64.1803,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240523,sub-data-prd,rg-data-prd,Storage,14.3389,USD,
+20240523,sub-payments-prd,rg-payments-prd,Azure App Service,23.5537,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240523,sub-payments-prd,rg-payments-prd,Bandwidth,7.0566,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240523,sub-shared,rg-shared,Virtual Network,9.9567,USD,
+20240524,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,126.4175,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240524,sub-platform-prd,rg-platform-prd,Virtual Machines,52.4531,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240524,sub-platform-prd,rg-platform-prd,Log Analytics,20.6243,USD,"{""env"": ""prd""}"
+20240524,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,32.3862,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240524,sub-data-prd,rg-data-prd,Azure Cosmos DB,58.829,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240524,sub-data-prd,rg-data-prd,Storage,14.7804,USD,
+20240524,sub-payments-prd,rg-payments-prd,Azure App Service,25.1494,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240524,sub-payments-prd,rg-payments-prd,Bandwidth,6.9895,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240524,sub-shared,rg-shared,Virtual Network,10.68,USD,
+20240525,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,101.9202,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240525,sub-platform-prd,rg-platform-prd,Virtual Machines,51.3837,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240525,sub-platform-prd,rg-platform-prd,Log Analytics,19.7647,USD,"{""env"": ""prd""}"
+20240525,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.8375,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240525,sub-data-prd,rg-data-prd,Azure Cosmos DB,61.6314,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240525,sub-data-prd,rg-data-prd,Storage,14.3772,USD,
+20240525,sub-payments-prd,rg-payments-prd,Azure App Service,23.6288,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240525,sub-payments-prd,rg-payments-prd,Bandwidth,5.9131,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240525,sub-shared,rg-shared,Virtual Network,9.4711,USD,
+20240526,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,107.5034,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240526,sub-platform-prd,rg-platform-prd,Virtual Machines,48.0231,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240526,sub-platform-prd,rg-platform-prd,Log Analytics,18.272,USD,"{""env"": ""prd""}"
+20240526,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,28.1204,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240526,sub-data-prd,rg-data-prd,Azure Cosmos DB,60.4183,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240526,sub-data-prd,rg-data-prd,Storage,15.6044,USD,
+20240526,sub-payments-prd,rg-payments-prd,Azure App Service,21.6715,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240526,sub-payments-prd,rg-payments-prd,Bandwidth,6.3896,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240526,sub-shared,rg-shared,Virtual Network,9.9181,USD,
+20240527,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,110.751,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240527,sub-platform-prd,rg-platform-prd,Virtual Machines,50.3578,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240527,sub-platform-prd,rg-platform-prd,Log Analytics,18.1571,USD,"{""env"": ""prd""}"
+20240527,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,33.1045,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240527,sub-data-prd,rg-data-prd,Azure Cosmos DB,59.4085,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240527,sub-data-prd,rg-data-prd,Storage,14.8637,USD,
+20240527,sub-payments-prd,rg-payments-prd,Azure App Service,22.5557,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240527,sub-payments-prd,rg-payments-prd,Bandwidth,6.3019,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240527,sub-shared,rg-shared,Virtual Network,10.3036,USD,
+20240528,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,119.5776,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240528,sub-platform-prd,rg-platform-prd,Virtual Machines,51.4277,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240528,sub-platform-prd,rg-platform-prd,Log Analytics,20.8841,USD,"{""env"": ""prd""}"
+20240528,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,31.7642,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240528,sub-data-prd,rg-data-prd,Azure Cosmos DB,59.8214,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240528,sub-data-prd,rg-data-prd,Storage,13.7678,USD,
+20240528,sub-payments-prd,rg-payments-prd,Azure App Service,24.1247,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240528,sub-payments-prd,rg-payments-prd,Bandwidth,7.1807,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240528,sub-shared,rg-shared,Virtual Network,9.4982,USD,
+20240529,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,126.4463,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240529,sub-platform-prd,rg-platform-prd,Virtual Machines,51.7138,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240529,sub-platform-prd,rg-platform-prd,Log Analytics,20.1784,USD,"{""env"": ""prd""}"
+20240529,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,35.1823,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240529,sub-data-prd,rg-data-prd,Azure Cosmos DB,71.1501,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240529,sub-data-prd,rg-data-prd,Storage,14.3161,USD,
+20240529,sub-payments-prd,rg-payments-prd,Azure App Service,21.64,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240529,sub-payments-prd,rg-payments-prd,Bandwidth,6.0742,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240529,sub-shared,rg-shared,Virtual Network,9.06,USD,
+20240530,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,127.148,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240530,sub-platform-prd,rg-platform-prd,Virtual Machines,49.5864,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240530,sub-platform-prd,rg-platform-prd,Log Analytics,18.4793,USD,"{""env"": ""prd""}"
+20240530,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,34.878,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240530,sub-data-prd,rg-data-prd,Azure Cosmos DB,68.7646,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240530,sub-data-prd,rg-data-prd,Storage,14.22,USD,
+20240530,sub-payments-prd,rg-payments-prd,Azure App Service,24.4494,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240530,sub-payments-prd,rg-payments-prd,Bandwidth,6.8517,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240530,sub-shared,rg-shared,Virtual Network,9.0371,USD,
+20240531,sub-platform-prd,rg-platform-prd,Azure Kubernetes Service,131.0676,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240531,sub-platform-prd,rg-platform-prd,Virtual Machines,53.5105,USD,"{""team"": ""platform"", ""env"": ""prd""}"
+20240531,sub-platform-prd,rg-platform-prd,Log Analytics,18.049,USD,"{""env"": ""prd""}"
+20240531,sub-platform-dev,rg-platform-dev,Azure Kubernetes Service,30.4126,USD,"{""team"": ""platform"", ""env"": ""dev""}"
+20240531,sub-data-prd,rg-data-prd,Azure Cosmos DB,62.8249,USD,"{""team"": ""data"", ""env"": ""prd""}"
+20240531,sub-data-prd,rg-data-prd,Storage,15.7723,USD,
+20240531,sub-payments-prd,rg-payments-prd,Azure App Service,26.1294,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240531,sub-payments-prd,rg-payments-prd,Bandwidth,6.3931,EUR,"{""team"": ""payments"", ""env"": ""prd""}"
+20240531,sub-shared,rg-shared,Virtual Network,10.2131,USD,
