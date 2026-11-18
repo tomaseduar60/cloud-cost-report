@@ -2,6 +2,7 @@
 
 **Total: {{ r.total | money }} {{ r.currency }}**{% for p, v in r.by_provider.items() %} · {{ p }} {{ v | money }}{% endfor %}
 
+
 {% if r.alerts %}
 ## ⚠️ Alertas de presupuesto
 
